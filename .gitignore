@@ -1,0 +1,22 @@
+# .GITIGNORE
+# Build outputs and compiled binaries
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+*.cyclo
+
+# STM32CubeIDE / Eclipse local settings
+.settings/
+.metadata/
+*.launch
+
+# Operating system junk files
+.DS_Store
+Thumbs.db
